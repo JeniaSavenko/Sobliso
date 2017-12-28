@@ -83,8 +83,7 @@ body {
         height: 55px;
         width: 581px; } }
   .form-section__field--login {
-    text-align: center;
-    background: none; }
+    text-align: center; }
   .form-section__field--login:not(:last-child) {
     margin-bottom: 38px; }
   .form-section__label--login {

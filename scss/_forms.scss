@@ -98,7 +98,6 @@
   }
   &__field--login {
     text-align: center;
-    background: none;
   }
   &__field--login:not(:last-child) {
     margin-bottom: 38px;
@@ -111,9 +110,8 @@
     font-weight: bold;
     line-height: 27px;
     text-transform: uppercase;
-
   }
-  &__input--login{
+  &__input--login {
     background: none;
   }
 }
