@@ -98,9 +98,10 @@
   }
   &__field--login {
     text-align: center;
+    background: none;
   }
   &__field--login:not(:last-child) {
-    margin-bottom: 68px;
+    margin-bottom: 38px;
   }
   &__label--login {
     display: flex;
@@ -109,7 +110,11 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 27px;
+    text-transform: uppercase;
 
+  }
+  &__input--login{
+    background: none;
   }
 }
 .preloader-section {

@@ -83,16 +83,20 @@ body {
         height: 55px;
         width: 581px; } }
   .form-section__field--login {
-    text-align: center; }
+    text-align: center;
+    background: none; }
   .form-section__field--login:not(:last-child) {
-    margin-bottom: 68px; }
+    margin-bottom: 38px; }
   .form-section__label--login {
     display: flex;
     flex-direction: column;
     padding-bottom: 3px;
     font-size: 20px;
     font-weight: bold;
-    line-height: 27px; }
+    line-height: 27px;
+    text-transform: uppercase; }
+  .form-section__input--login {
+    background: none; }
 
 .preloader-section {
   display: flex;
