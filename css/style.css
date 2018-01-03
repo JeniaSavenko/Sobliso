@@ -116,6 +116,12 @@ body {
     background-color: #000;
     animation: ani-item 1s infinite;
     animation-timing-function: cubic-bezier(0.42, 0, 1, 1); }
+    .preloader-section__loader-item:nth-child(1n) {
+      animation-direction: alternate-reverse; }
+    .preloader-section__loader-item:nth-child(2n) {
+      animation-direction: alternate; }
+    .preloader-section__loader-item:not(:last-child) {
+      margin-right: 13px; }
 @keyframes ani-item {
   0% {
     height: 22.5px; }
@@ -124,13 +130,6 @@ body {
     margin-top: -22.5px; }
   100% {
     height: 22.5px; } }
-  .preloader-section__loader-item:nth-child(1n) {
-    animation-direction: alternate-reverse; }
-  .preloader-section__loader-item:nth-child(2n) {
-    animation-direction: alternate; }
-  .preloader-section__loader-item:not(:last-child) {
-    margin-right: 13px; }
-
 [type='radio'] {
   visibility: hidden; }
   [type='radio']:checked ~ [class$='__label']:after {
